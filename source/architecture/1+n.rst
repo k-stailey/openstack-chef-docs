@@ -1,0 +1,20 @@
+.. index::
+  1+n
+
+=================
+1+N
+=================
+
+The **1+N** configuration refers to 1 'Controller' and N 'Compute' nodes. This is suitable for relatively small (<20 nodes) deployments depending on the nature of the workload.
+
+In an **1+N** configuration, the Controller provides all of the services for a OpenStack Compute deployment (RabbitMQ, MySQL, Keystone, Glance, Nova, Horizon) minus **nova-compute** and **nova-network** and Swift Object Storage. **nova-compute** and **nova-network** are running on the Compute nodes.
+
+Networking
+----------
+The current network deployment is HA FlatDHCP, where each Compute node will do all of the networking jobs for its own VMs. Each compute host does NAT, DHCP, and acts as a gateway for all of its own VMs.
+
+Environment
+-----------
+
+Roles
+-----------
