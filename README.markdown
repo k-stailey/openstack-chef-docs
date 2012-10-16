@@ -2,6 +2,9 @@
 
 This repository has the source material for the Chef for OpenStack Guide.
 
+There will be a permanent URL for the docs online soon, here is a temporary address:
+http://15.185.230.54/
+
 ## Prerequisites
 
 To use this documentation, you'll need to have [Sphinx](http://sphinx.pocoo.org) installed,
