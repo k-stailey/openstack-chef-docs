@@ -5,7 +5,7 @@
 1+N
 =================
 
-The **1+N** configuration refers to 1 'Controller' and N 'Compute' nodes. This is suitable for relatively small (<20 nodes) deployments depending on the nature of the workload.
+The **1+N** configuration refers to 1 'Controller' and N 'Compute' nodes. This is suitable for relatively small (<20 nodes) deployments depending on the nature of the workload. Compute nodes should typically be given more substantial hardware than the Controller node.
 
 In an **1+N** configuration, the Controller provides all of the services for a OpenStack Compute deployment (RabbitMQ, MySQL, Keystone, Glance, Nova, Horizon) minus **nova-compute** and **nova-network** and Swift Object Storage. **nova-compute** and **nova-network** are running on the Compute nodes.
 
