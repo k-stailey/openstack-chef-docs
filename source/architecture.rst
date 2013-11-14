@@ -2,7 +2,7 @@
 Architecture
 ############
 
-This section will provide you with an overview of the currently supported deployment scenarios for OpenStack. You should already familiar with the components for the OpenStack 'Essex' release:
+This section will provide you with an overview of the currently supported deployment scenarios for OpenStack. You should already be familiar with the components for the OpenStack 'Essex' release:
 
 |essex|
 
